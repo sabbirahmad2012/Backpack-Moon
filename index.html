@@ -18,7 +18,8 @@
     p{
       font-size: 20px;
       font-weight: bolder;
-      line-height: 170%;
+      line-height: 100%;
+      padding-top: 15px;
     }
     a{
       font-weight: bold;
@@ -28,8 +29,32 @@
     }
     h3{
       color: #363958;
+      font-weight: bold;
+      font-size: 35px;
     }
-    
+   /* .rt-img{
+      display: flex;
+      flex-direction: column;
+      flex-flow: column;
+    }
+    .card{
+      height: 30rem;
+      border: none;
+    }
+    .card-img{
+      width: 7rem;
+      height: 7rem;
+      display: flex;
+      justify-content: center;
+    }
+    .card-h3{
+      display: flex;
+      
+    }
+    .card-p{
+      float: right;
+      padding: 30px;
+    }*/
   </style>
 </head>
 <body>
@@ -75,34 +100,44 @@
     </section>
   </header>
 
-  <main class="container py-5">
-  <section>
+  <main>
+  <section class="container py-5">
      
     <div class="row">
       
-      <div class="col-lg-6">
+      <div class="card col-lg-6">
       
-        <div class="col-sm-12 px-5 shadow p-3 mb-5 bg-body rounded">
-          <img src="Logo, Icon/image 12.png" alt="" class="w-25">
-          <h3 class="right">Find the Perfect Fit</h3>
-          <p class="right">Everybody is different, which is why we offer styles for every body.
-          </p>
+        <div class="col-sm-12 d-flex px-5 shadow p-3 mb-5 bg-body rounded">
+          <div class="w-25"><img src="Logo, Icon/image 12.png" alt="" class="card-img w-100"></div>
+          <div class="w-75"><h3 class="card-h3">Find the Perfect Fit</h3>
+            <p class="card-p">Everybody is different, which is why we offer styles for every body.
+            </p>
+          </div>
+          
         </div>
-        <div class="col-sm-12 px-5 shadow p-3 mb-5 bg-body rounded">
-          <img src="logo, icon/image 13.png" alt="" class="w-25">
-          <h3>Free Exchanges</h3>
-          <p>One of the many reasons you can shop with peace of mind.</p>
+        <div class="col-sm-12 d-flex px-5 shadow p-3 mb-5 bg-body rounded">
+         <div class="w-25">
+           <img src="logo, icon/image 13.png" alt="" class="rt-img w-100">
+         </div>
+          <div class="w-75">
+            <h3>Free Exchanges</h3>
+            <p>One of the many reasons you can shop with peace of mind.</p>
+          </div>
         </div>
-        <div class="col-sm-12 px-5 shadow p-3 mb-5 bg-body rounded">
-          <img src="Logo, Icon/image 14.png" alt="" class="w-25">
-          <h3>Contact Our Seller</h3>
-          <p>They are here to help you. That's quite literally what we pay them for.</p>
+        <div class="col-sm-12 d-flex px-5 shadow p-3 mb-5 bg-body rounded">
+          <div class="w-25">
+            <img src="Logo, Icon/image 14.png" alt="" class="w-100">
+          </div>
+          <div class="w-75">
+           <h3>Contact Our Seller</h3>
+           <p>They are here to help you. That's quite literally what we pay them for.</p>
+          </div>
         </div>
 
       </div>
       
-      <div class="col-lg-6 w-100 d-flex justify-content-end">
-          <img src="logo, icon/XMLID 1.png" alt="" class="w-100">
+      <div class="col-lg-6 w-50">
+          <img src="logo, icon/XMLID 1.png" alt="" class="w-100 ml-5 px-5">
         </div>
        
       
